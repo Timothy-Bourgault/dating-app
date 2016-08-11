@@ -8,12 +8,135 @@
     <title>LoveCraft Singles</title>
     <meta charset="utf-8">
     <title>LoveCraft Singles</title>
-    <div class="container">
-      <div class="jumbotron">
-        <h1>Rock the vote</h1>
-      </div>
+
   </head>
   <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h2>Paint Me Like One of Your Elder Gods</h2>
+      </div>
+      <h4>See which of one of these eligible singles you are most compatible with! First, we'll need to learn a bit about you!</h4>
 
+    <form id="aboutYou">
+      <div class="form-group">
+        <label for="yourName">What's your name, mortal?</label>
+        <input id="yourName" class="form-control" type="text" placeholder="My Name Is" required>
+      </div>
+      <h5>How do you feel about tentacles?</h5>
+      <select class="form-control" id="myTentacles">
+        <option value="0">No thank you</option>
+        <option value="1">A few are fine</option>
+        <option value="2">More the better</option>
+        <option value="3">Tentacular!</option>
+      </select>
+      <h5>What's your element?</h5>
+      <select class="form-control" id="myElement">
+        <option value="0">Air</option>
+        <option value="1">Water</option>
+        <option value="2">Earth</option>
+        <option value="3">Fire</option>
+      </select>
+      <h5>A favorite vacation spot?</h5>
+      <div class="radio">
+        <label>
+          <input type="radio" name="myVacation" value="Miskatonic" checked>
+        Miskatonic
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="myVacation" value="Mountains of Madness">
+        Mountains of Madness
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="myVacation" value="Nameless City">
+        The Nameless City
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="myVacation" value="Rlyeh">
+        Oh, R'lyeh?
+        </label>
+      </div>
+      <h5>What sauce do you taste great with?</h5>
+      <div class="radio">
+        <label>
+          <input type="radio" name="mySauce" value="Ketchup" checked>
+        Ketchup
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="mySauce" value="Dank Sauce">
+        Dank Sauce
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="mySauce" value="Boolean Slime">
+        Boolean Slime
+        </label>
+      </div>
+      <h5>Dom or Sub?</h5>
+      <select class="form-control" id="myDomSub">
+        <option value="0">Sub</option>
+        <option value="1">Dom</option>
+      </select>
+      <br />
+      <button type="submit" class="btn btn-danger">I Submit!</button>
+    </form>
+
+    <div class="datingResult" id="elderGod1">
+      <h2>Nyarlathep Chooses You!</h2>
+      <div class="row">
+        <div class="col-xs-3">
+          <img src="img/contestant1.jpg" alt="Smooch!">
+        </div>
+        <div class="col-xs-9">
+          <p>Quinoa shoreditch salvia tofu man bun, four loko umami celiac yuccie trust fund chambray flexitarian bushwick seitan plaid. Four loko pork belly bicycle rights sartorial whatever poutine. Yr disrupt quinoa freegan poutine. Bicycle rights echo park kitsch ennui man bun, fashion axe whatever microdosing. Sustainable mlkshk stumptown, man braid williamsburg tousled pabst pickled yr everyday carry flexitarian jean shorts. Man bun salvia paleo intelligentsia biodiesel. Schlitz everyday carry freegan, semiotics kombucha helvetica stumptown chia.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="datingResult" id="elderGod2">
+      <h2>Nodens Chooses You!</h2>
+      <div class="row">
+        <div class="col-xs-3">
+          <img src="img/contestant2.jpg" alt="Smooch!">
+        </div>
+        <div class="col-xs-9">
+          <p>Quinoa shoreditch salvia tofu man bun, four loko umami celiac yuccie trust fund chambray flexitarian bushwick seitan plaid. Four loko pork belly bicycle rights sartorial whatever poutine. Yr disrupt quinoa freegan poutine. Bicycle rights echo park kitsch ennui man bun, fashion axe whatever microdosing. Sustainable mlkshk stumptown, man braid williamsburg tousled pabst pickled yr everyday carry flexitarian jean shorts. Man bun salvia paleo intelligentsia biodiesel. Schlitz everyday carry freegan, semiotics kombucha helvetica stumptown chia.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="datingResult" id="elderGod3">
+      <h2>Furry Kitty Chooses You!</h2>
+      <div class="row">
+        <div class="col-xs-3">
+          <img src="img/contestant3.jpg" alt="Smooch!">
+        </div>
+        <div class="col-xs-9">
+          <p>Quinoa shoreditch salvia tofu man bun, four loko umami celiac yuccie trust fund chambray flexitarian bushwick seitan plaid. Four loko pork belly bicycle rights sartorial whatever poutine. Yr disrupt quinoa freegan poutine. Bicycle rights echo park kitsch ennui man bun, fashion axe whatever microdosing. Sustainable mlkshk stumptown, man braid williamsburg tousled pabst pickled yr everyday carry flexitarian jean shorts. Man bun salvia paleo intelligentsia biodiesel. Schlitz everyday carry freegan, semiotics kombucha helvetica stumptown chia.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="datingResult" id="elderGod4">
+      <h2>You Came to the Wrong Place, Mortal!</h2>
+      <div class="row">
+        <div class="col-xs-3">
+          <img src="img/contestant4.jpg" alt="Smooch!">
+        </div>
+        <div class="col-xs-9">
+          <p>Sorry, no date for you! Quinoa shoreditch salvia tofu man bun, four loko umami celiac yuccie trust fund chambray flexitarian bushwick seitan plaid. Four loko pork belly bicycle rights sartorial whatever poutine. Yr disrupt quinoa freegan poutine. Bicycle rights echo park kitsch ennui man bun, fashion axe whatever microdosing. Sustainable mlkshk stumptown, man braid williamsburg tousled pabst pickled yr everyday carry flexitarian jean shorts. Man bun salvia paleo intelligentsia biodiesel. Schlitz everyday carry freegan, semiotics kombucha helvetica stumptown chia.</p>
+        </div>
+      </div>
+    </div>
+
+    </div>
   </body>
 </html>
